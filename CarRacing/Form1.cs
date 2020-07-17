@@ -24,33 +24,33 @@ namespace CarRacing
 
         void moveLine(int speed)
         {
-            if (picBoxLine1.Top >= 450)
-                picBoxLine1.Top = 0;
+            if (picBoxLine1.Top >= this.Height - picBoxLine1.Height)
+                picBoxLine1.Top = -picBoxLine1.Height;
             else
                 picBoxLine1.Top += speed;
 
-            if (picBoxLine2.Top >= 450)
-                picBoxLine2.Top = 0;
+            if (picBoxLine2.Top >= this.Height - picBoxLine2.Height)
+                picBoxLine2.Top = -picBoxLine2.Height;
             else
                 picBoxLine2.Top += speed;
 
-            if (picBoxLine3.Top >= 450)
-                picBoxLine3.Top = 0;
+            if (picBoxLine3.Top >= this.Height - picBoxLine3.Height)
+                picBoxLine3.Top = -picBoxLine3.Height;
             else
                 picBoxLine3.Top += speed;
 
-            if (picBoxLine4.Top >= 450)
-                picBoxLine4.Top = 0;
+            if (picBoxLine4.Top >= this.Height - picBoxLine4.Height)
+                picBoxLine4.Top = -picBoxLine4.Height;
             else
                 picBoxLine4.Top += speed;
 
-            if (picBoxLine5.Top >= 450)
-                picBoxLine5.Top = 0;
+            if (picBoxLine5.Top >= this.Height - picBoxLine5.Height)
+                picBoxLine5.Top = -picBoxLine5.Height;
             else
                 picBoxLine5.Top += speed;
 
-            if (picBoxLine6.Top >= 450)
-                picBoxLine6.Top = 0;
+            if (picBoxLine6.Top >= this.Height - picBoxLine6.Height)
+                picBoxLine6.Top = -picBoxLine6.Height;
             else
                 picBoxLine6.Top += speed;
         }
